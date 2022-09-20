@@ -1,5 +1,5 @@
 radio.onReceivedNumber(function (receivedNumber) {
-    if (true) {
+    if (receivedNumber == number) {
         basic.showIcon(IconNames.Yes)
     } else {
         basic.showIcon(IconNames.No)
